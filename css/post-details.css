@@ -1,0 +1,34 @@
+.wraper{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+.content{
+    flex: 1 1 auto;
+}
+.comments{
+    background: #8d8d8d;
+}
+.conteyner{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.comments__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment{
+
+}
+.comments__item{
+    flex: 1 1 250px;
+}
+.comment__colom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
